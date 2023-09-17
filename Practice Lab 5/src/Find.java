@@ -11,15 +11,11 @@ public class Find {
 	 */
 	public static String find(int[] A, int N) {
 		for (int index = 0; index < A.length; index++) {
-			
-			// Check whether we've found a number at any index
 			if (N == A[index]) {
 				return "Number is at index: " + Integer.toString(index);
 			}
 		}
-		
 		return "Number not found in the DB";
-		// Thank you!
 	}
 }
 
