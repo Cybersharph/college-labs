@@ -1,6 +1,6 @@
 public class Find {
 	/**
-	 * method implementing the Search
+	 * method implementing the Binary Search Algorithm
 	 * @param numbers array of numbers to be searched
 	 * @param number an element to be search
 	 * @return index of the number in an array
